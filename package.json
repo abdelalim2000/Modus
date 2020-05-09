@@ -1,0 +1,47 @@
+{
+  "name": "modus",
+  "version": "1.0.0",
+  "description": "Creativity have no Limits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abdelalim2000/Modus.git"
+  },
+  "keywords": [
+    "Modus"
+  ],
+  "author": "Mohamed Ahmed Abdel-Aleem",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abdelalim2000/Modus/issues"
+  },
+  "homepage": "https://abdelalim2000.github.io/Modus/",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "jquery": "^3.5.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.1",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-uglify": "^3.0.2",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
