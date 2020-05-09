@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/abdelalim2000/Modus/issues"
   },
-  "homepage": "https://abdelalim2000.github.io/Modus/",
+  "homepage": "https://github.com/abdelalim2000/Modus/",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "jquery": "^3.5.0"
