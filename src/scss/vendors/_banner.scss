@@ -1,0 +1,66 @@
+#banner {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../img/mountain-under-cloudy-sky.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+
+  .content {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+    p {
+      text-transform: uppercase;
+      font-size: 1.3em;
+      color: $secondery-color;
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      text-transform: uppercase;
+      color: $secondery-color;
+      margin-bottom: 20px;
+    }
+    .cta {
+      padding: 15px 30px;
+      border: 1px solid $secondery-color;
+      border-radius: 7px;
+      margin-left: 20px;
+      color: $secondery-color;
+      text-transform: uppercase;
+      font-size: 0.6em;
+      transition: all 0.3s ease-out;
+    }
+    .pre {
+      color: $primary-color;
+      border-color: $primary-color;
+      &:hover {
+        &:hover {
+          background: $primary-color;
+          border-color: $primary-color;
+          color: $secondery-color;
+        }
+      }
+    }
+    .block {
+      background: $primary-color;
+      border-color: $primary-color;
+      color: $secondery-color;
+
+      &:hover {
+        background: none;
+        border-color: $secondery-color;
+        color: $secondery-color;
+      }
+    }
+  }
+}

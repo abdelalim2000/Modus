@@ -1,0 +1,33 @@
+/* Variables */
+$primary-color: #12badb;
+$secondery-color: #fff;
+$acc-color: #666;
+$font-color: #555;
+$bg-color: #dddddd;
+$acc-bg-color: #222;
+
+/* Global variables */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+    background-color: $bg-color;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}

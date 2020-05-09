@@ -1,0 +1,35 @@
+.copyright {
+  width: 100%;
+  height: 7vh;
+  background: $primary-color;
+  color: $secondery-color;
+
+  .wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p {
+      text-transform: uppercase;
+      font-size: 0.9em;
+    }
+
+    .social {
+      display: flex;
+
+      .social-icon {
+        padding: 10px;
+        font-size: 1.1em;
+      }
+    }
+
+    svg {
+      transition: color 0.3s ease-in-out;
+      &:hover {
+        color: $font-color;
+      }
+    }
+  }
+}
